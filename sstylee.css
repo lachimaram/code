@@ -1,0 +1,25 @@
+.body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: aliceblue;
+  color: aquamarine;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px;
+  background-color: antiquewhite;
+}
+.header__logo img {
+  height: 30px;
+}
+.header__nav a {
+  margin-left: 23px;
+  text-decoration: none;
+  color: rgb(55, 198, 217);
+}
+.header__nav a:hover {
+  color: blue;
+}
