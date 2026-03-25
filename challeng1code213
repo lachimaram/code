@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple Omelette Recipe</title>
+  </head>
+  <body>
+    <header>
+      <h1>Simple Omelette Recipe</h1>
+      <img src="omelette.jpg" alt="A delicious omelette" />
+    </header>
+
+    <section>
+      <p>
+        An easy and quick dish, perfect for any meal. This omelette is simple to
+        make and very delicious.
+      </p>
+    </section>
+
+    <section>
+      <h2>Preparation Time</h2>
+      <ul>
+        <li>Total time: 10 minutes</li>
+        <li>Preparation time: 5 minutes</li>
+        <li>Cooking time: 5 minutes</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Ingredients</h2>
+      <ul>
+        <li>2 eggs</li>
+        <li>Salt</li>
+        <li>Pepper</li>
+        <li>1 tablespoon butter</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Instructions</h2>
+      <ol>
+        <li>Beat the eggs in a bowl.</li>
+        <li>Add salt and pepper.</li>
+        <li>Heat the pan and melt the butter.</li>
+        <li>Pour the eggs into the pan.</li>
+        <li>Cook until set, then fold and serve.</li>
+      </ol>
+    </section>
+
+    <!-- 7. Nutrition Section -->
+    <section>
+      <h2>Nutrition</h2>
+      <span>Calories: 150 kcal</span>
+      <hr />
+      <span>Carbs: 1g</span>
+      <hr />
+      <span>Protein: 10g</span>
+      <hr />
+      <span>Fat: 11g</span>
+    </section>
+  </body>
+</html>
