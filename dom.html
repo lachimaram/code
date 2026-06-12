@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Currency converter</h1>
+
+    <div class="converter-box">
+        <h2>Amount to convert :</h2>
+
+        <input type="number" id="amount">
+
+        <div class="currencies">
+            <div>
+                <label>From</label>
+                <select id="from">
+                    <option value="1">DZD</option>
+                    <option value="0.0074">USD</option>
+                    <option value="0.0068">EUR</option>
+                </select>
+            </div>
+
+            <div>
+                <label>To</label>
+                <select id="to">
+                    <option value="1">DZD</option>
+                    <option value="135">USD</option>
+                    <option value="147">EUR</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button onclick="convert()">Convert</button>
+            <button onclick="resetFields()">Reset</button>
+        </div>
+
+        <h3 id="result"></h3>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
