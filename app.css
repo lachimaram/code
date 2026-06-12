@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 80px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #c9c9d6;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 70px;
+}
+
+.number {
+  position: absolute;
+  left: -25px;
+  width: 48px;
+  height: 48px;
+  background: #d7d7f8;
+  border: 1px solid #b8b8d9;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+}
+
+.content {
+  margin-left: 60px;
+}
+
+.content h2 {
+  font-size: 38px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.content p {
+  font-size: 24px;
+  line-height: 1.8;
+  color: #444;
+  max-width: 900px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 22px;
+  top: 24px;
+  width: 90px;
+  height: 2px;
+  background: #c9c9d6;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 60px;
+  }
+
+  .content h2 {
+    font-size: 24px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+
+  .number {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
