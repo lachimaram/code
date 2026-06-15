@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.buttons button,
+.reset {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
+}
+
+.result {
+  margin-top: 20px;
+}
