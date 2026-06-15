@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./app.css";
+import "./app1.css";
 
 function App() {
   const choices = ["Rock", "Paper", "Scissors"];
